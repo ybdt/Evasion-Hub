@@ -70,6 +70,12 @@ https://ybdt.me/2025/09/18/回调函数/
 #### Deliver-----FTP-LNK
 https://ybdt.me/2025/09/03/一次简单的钓鱼分析之FTP执行LNK/
 
+#### Basic-----Windows-Assembly
+https://ybdt.me/2025/08/05/DOS下16位汇编学习/  
+https://ybdt.me/2025/08/14/Windows下32位汇编学习/  
+https://ybdt.me/2025/09/29/Windows下32位汇编学习（二）PE文件解析/  
+https://ybdt.me/2026/03/13/Windows-x64汇编与Shellcode/  
+
 #### Loader-----NtReadVirtualMemory
 https://ybdt.me/2025/07/28/利用NtReadVirtualMemory实现IAT中规避高危API/  
 
