@@ -1,0 +1,12 @@
+[
+    uuid(8A4B8C38-6BBD-4A9D-AE8E-1234567890AB),
+    version(1.0)
+]
+interface SimpleCalc
+{
+    // 两个输入参数，返回它们的和
+    int Add([in] int a, [in] int b);
+
+    // 让服务端优雅退出（示例）
+    void Shutdown(void);
+}

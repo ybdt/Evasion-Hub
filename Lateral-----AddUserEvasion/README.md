@@ -1,0 +1,1 @@
+Three methods of adding user：NetUser、NetAPI、Sam

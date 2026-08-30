@@ -1,0 +1,1 @@
+PPID Spoofing + EarlyBird Injection + Privilege Escalation + Whitelist Handling

