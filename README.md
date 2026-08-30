@@ -1,10 +1,14 @@
 This repo contains code implementation of av/edr evasion technology, you can learn it or use it.
 
+# Disclaimer
+All the exps in current project only used for research or educational purpose, other uses must comply with local laws and regulations, 
+illegal use is unrelated to the author.
+
 # Introduction
 Some implementation has corresponding article, you can reference
 
 #### Loader-----Sleep-Mask
-https://ybdt.me/2026/08/13/免杀对抗之睡眠混淆技术深度解析/  
+https://ybdt.me/2026/08/13/免杀对抗之睡眠混淆技术深度解析/
 
 #### Blinding-----EDRChoker
 https://ybdt.me/2026/06/10/新型流量侧致盲EDR-Agent技术EDRChoker解析/
